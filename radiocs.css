@@ -3,32 +3,40 @@
 }
 
 .navbar-toggler-icon{
-	border-color: white; 
+	border-color: white;
 	outline: white;
 	border-radius: 5px;
 }
 
 .navbar{
-	background-color: #5f5f5f; 
+	background-color: #5f5f5f;
 }
 
 #myBtn {
   position: fixed;
-  top: 100px;
+  top: 52px;
   right: 30px;
   z-index: 99;
-  font-size: 20px;
+  /* font-size: 20px; */
   border: none;
   outline: none;
   background-color: #F0172B;
   color: white;
-  cursor: pointer;
-  padding: 30px;
-  border-radius: 50%;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom:  15px;
+  border-radius: 0%;
 }
 
 #myBtn:hover {
   background-color: #1927E0;
+}
+
+.btn11{
+	height: 7%;
+	width: 7%;
+	/* font-size: 100%; */
 }
 
 #arrow{
