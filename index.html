@@ -16,15 +16,17 @@
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" type="text/css" href="radiocs.css">
     <link rel="icon" href="favicon.ico">
+
 </head>
 
 <body>
 
+
     <!--Main Navigation-->
     <header>
-<button id="myBtn" class="btn btn-primary btn-circle btn-xl"><h3>91.2 FM</h3></button>
+<button id="myBtn" class="btn btn-circle btn-xl mdb-color darken-5"><h3>91.2 FM</h3></button>
         <!-- Navbar -->
-        <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark scrolling-navbar">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark  mdb-color darken-2-gradient scrolling-navbar">
             <div class="container">
 
                 <!-- Brand -->
@@ -98,6 +100,7 @@
 
     </header>
     <!--Main Navigation-->
+    <div id="like_button_container"></div>
 <br>
     <!--Main layout-->
     <div class="mt-5 pt-5" id="newsfeed">
@@ -179,7 +182,7 @@
 
                     </div>
                     <!--Grid column-->
-
+<div id="like_button_container"></div>
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-6 mb-4">
 
@@ -431,6 +434,10 @@ Your browser does not support the audio element.
         // Animations initialization
         new WOW().init();
     </script>
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+ <script src="like_button.js"></script>
     <script src="radiojs.js"></script>
         <!-- when opened , home tab is black -->
     <script>
